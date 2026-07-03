@@ -2,8 +2,8 @@
 # Experiment: Final per-task accuracy after the full Split-MNIST sequence
 #
 # Paper:
-#   Energy-Based Credit Assignment for Continual Learning:
-#   A Review of Backpropagation-Free Methods
+#   Backpropagation-Free Continual Learning:
+#   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges
 #
 # Purpose:
 #   After all five Split-MNIST tasks, measure accuracy on each task separately.
@@ -39,8 +39,8 @@
 #   MIT License, or the same license declared in the repository.
 #
 # Citation:
-#   Valencia Niño, C.H. Energy-Based Credit Assignment for Continual Learning:
-#   A Review of Backpropagation-Free Methods.
+#   Valencia Niño, C.H. Backpropagation-Free Continual Learning:
+#   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges.
 # =============================================================================
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

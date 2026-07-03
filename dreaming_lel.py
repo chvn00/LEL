@@ -2,8 +2,8 @@
 # Experiment: Defeating catastrophic forgetting by generative dreaming (Python)
 #
 # Paper:
-#   Energy-Based Credit Assignment for Continual Learning:
-#   A Review of Backpropagation-Free Methods
+#   Backpropagation-Free Continual Learning:
+#   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges
 #
 # Purpose:
 #   Biological motivation: the hippocampus replays experiences during sleep to
@@ -42,8 +42,8 @@
 #   MIT License, or the same license declared in the repository.
 #
 # Citation:
-#   Valencia Niño, C.H. Energy-Based Credit Assignment for Continual Learning:
-#   A Review of Backpropagation-Free Methods.
+#   Valencia Niño, C.H. Backpropagation-Free Continual Learning:
+#   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges.
 # =============================================================================
 import numpy as np
 import statistics as st

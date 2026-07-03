@@ -2,8 +2,8 @@
 # Experiment: Honest efficiency comparison, LEL vs. backprop (time, FLOPs, memory)
 #
 # Paper:
-#   Energy-Based Credit Assignment for Continual Learning:
-#   A Review of Backpropagation-Free Methods
+#   Backpropagation-Free Continual Learning:
+#   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges
 #
 # Purpose:
 #   On von Neumann hardware (CPU/GPU) LEL is MORE expensive, because the
@@ -43,8 +43,8 @@
 #   MIT License, or the same license declared in the repository.
 #
 # Citation:
-#   Valencia Niño, C.H. Energy-Based Credit Assignment for Continual Learning:
-#   A Review of Backpropagation-Free Methods.
+#   Valencia Niño, C.H. Backpropagation-Free Continual Learning:
+#   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges.
 # =============================================================================
 import numpy as np, time
 

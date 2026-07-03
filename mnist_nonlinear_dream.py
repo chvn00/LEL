@@ -2,8 +2,8 @@
 # Experiment: Split-MNIST dreaming with a LOCAL NON-LINEAR generator (generative LEL)
 #
 # Paper:
-#   Energy-Based Credit Assignment for Continual Learning:
-#   A Review of Backpropagation-Free Methods
+#   Backpropagation-Free Continual Learning:
+#   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges
 #
 # Purpose:
 #   Complete the "LEL dreams from its own energy" pipeline WITHOUT backprop:
@@ -43,8 +43,8 @@
 #   MIT License, or the same license declared in the repository.
 #
 # Citation:
-#   Valencia Niño, C.H. Energy-Based Credit Assignment for Continual Learning:
-#   A Review of Backpropagation-Free Methods.
+#   Valencia Niño, C.H. Backpropagation-Free Continual Learning:
+#   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges.
 # =============================================================================
 import numpy as np, statistics as st
 

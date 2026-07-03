@@ -2,8 +2,8 @@
 # Experiment: Numerical validation of Theorem 2 (LEL <-> backpropagation)
 #
 # Paper:
-#   Energy-Based Credit Assignment for Continual Learning:
-#   A Review of Backpropagation-Free Methods
+#   Backpropagation-Free Continual Learning:
+#   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges
 #
 # Purpose:
 #   Measure the cosine between the local LEL update and the negative
@@ -45,8 +45,8 @@
 #   MIT License, or the same license declared in the repository.
 #
 # Citation:
-#   Valencia Niño, C.H. Energy-Based Credit Assignment for Continual Learning:
-#   A Review of Backpropagation-Free Methods.
+#   Valencia Niño, C.H. Backpropagation-Free Continual Learning:
+#   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges.
 # =============================================================================
 import numpy as np
 

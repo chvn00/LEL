@@ -1,7 +1,7 @@
-# Energy-Based Credit Assignment for Continual Learning
+# Backpropagation-Free Continual Learning
 ### Reproducible Benchmark Code
 
-**Paper:** Valencia Niño, C.H. *Energy-Based Credit Assignment for Continual Learning: A Review of Backpropagation-Free Methods.* MDPI AI (submitted).
+**Paper:** Valencia Niño, C.H. *Backpropagation-Free Continual Learning: A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges.* MDPI Analytics (submitted).
 
 **Author:** Cesar Hernando Valencia Niño  
 Facultad de Ingeniería de Telecomunicaciones, Universidad Santo Tomás, Seccional Bucaramanga, Colombia  
@@ -137,9 +137,9 @@ Every script prints results to the console. No files are written unless stated o
 ```bibtex
 @article{valencianino2026lel,
   author  = {Valencia Niño, Cesar Hernando},
-  title   = {Energy-Based Credit Assignment for Continual Learning:
+  title   = {Backpropagation-Free Continual Learning:
              A Review of Backpropagation-Free Methods},
-  journal = {AI},
+  journal = {Analytics},
   year    = {2026},
   publisher = {MDPI}
 }

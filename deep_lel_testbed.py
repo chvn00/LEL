@@ -2,8 +2,8 @@
 # Experiment: Depth/error-imbalance testbed for the LEL network
 #
 # Paper:
-#   Energy-Based Credit Assignment for Continual Learning:
-#   A Review of Backpropagation-Free Methods
+#   Backpropagation-Free Continual Learning:
+#   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges
 #
 # Purpose:
 #   Show the depth barrier of local learning on an easy task (0 vs 1). As depth
@@ -40,8 +40,8 @@
 #   MIT License, or the same license declared in the repository.
 #
 # Citation:
-#   Valencia Niño, C.H. Energy-Based Credit Assignment for Continual Learning:
-#   A Review of Backpropagation-Free Methods.
+#   Valencia Niño, C.H. Backpropagation-Free Continual Learning:
+#   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges.
 # =============================================================================
 import numpy as np
 d = np.load('/tmp/mnist.npz'); Xtr = d['Xtr'].astype(np.float64)/255.0; ytr = d['ytr']; Xte = d['Xte'].astype(np.float64)/255.0; yte = d['yte']

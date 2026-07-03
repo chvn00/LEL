@@ -3,8 +3,8 @@ function continual_learning_lel_vs_backprop()
 % Experiment: Continual learning baseline, LEL vs. backpropagation
 %
 % Paper:
-%   Energy-Based Credit Assignment for Continual Learning:
-%   A Review of Backpropagation-Free Methods
+%   Backpropagation-Free Continual Learning:
+%   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges
 %
 % Purpose:
 %   Evaluate catastrophic forgetting in a sequential learning setting and
@@ -47,8 +47,8 @@ function continual_learning_lel_vs_backprop()
 %   MIT License, or the same license declared in the repository.
 %
 % Citation:
-%   Valencia Niño, C.H. Energy-Based Credit Assignment for Continual Learning:
-%   A Review of Backpropagation-Free Methods.
+%   Valencia Niño, C.H. Backpropagation-Free Continual Learning:
+%   A Unified Energy-Based Framework, Reproducible Benchmark, and Open Challenges.
 % =====================================================================
 %
 %  Question: when learning task A and then task B WITHOUT revisiting A,
