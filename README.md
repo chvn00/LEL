@@ -94,7 +94,7 @@ Scripts are grouped by what they test, matching the paper's section structure.
 | Script | What it does |
 |--------|--------------|
 | `measure_efficiency.py` | Measures wall-clock time and activation memory of LEL versus backpropagation on CPU. Reports the ~7.5× slowdown and the O(width) vs O(depth × width) memory contrast. |
-| `energy_estimate.py` | Projects per-sample training energy using the per-operation figures of Horowitz (2014, 45 nm). On von Neumann hardware LEL costs more; on in-memory substrates the dominant data-movement term is eliminated, projecting a 120–1200× reduction. This is a projection, not a device measurement. |
+| `energy_estimate.py` | Projects per-sample training energy using the per-operation figures of Sze et al. (2017, 45 nm node). On von Neumann hardware LEL costs more; on in-memory substrates the dominant data-movement term is eliminated, projecting a 120–1200× reduction. This is a projection, not a device measurement. |
 | `t_relaxation_ablation.py` | Sweeps the number of relaxation steps *T* and measures accuracy and wall-clock time. Accuracy is nearly flat across *T*; cost grows linearly, quantifying the source of the measured slowdown. |
 
 ---

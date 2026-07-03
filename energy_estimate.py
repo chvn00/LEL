@@ -7,7 +7,7 @@
 #
 # Purpose:
 #   Estimate the per-sample energy of one training update with the per-operation
-#   figures of Horowitz (2014, 45 nm). On von Neumann hardware LEL costs more
+#   figures from Sze et al. (2017, 45 nm node). On von Neumann hardware LEL costs more
 #   (about 5x the MACs of backpropagation), and data movement (DRAM access)
 #   dominates the budget. In an in-memory regime, where the weight is the device
 #   and no data is moved, the same local computation is projected to be far
